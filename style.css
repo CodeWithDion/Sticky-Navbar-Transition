@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* ||RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ||GENERAL STYLE */
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+section {
+    padding: 4rem 2rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* ||MAIN CONTENT */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 1rem 5rem;
+    background: whitesmoke;
+    transition: background .5s;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.header.active {
+    background: black;
+    color: whitesmoke;
+}
+
+.header.active a {
+    color: white;
+}
+
+
+.logo {
+    font-size: 2rem;
+}
+
+li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('image/john-towner-JgOeRuGD_Y4-unsplash.jpg');
+    background-size: cover;
+}
+
+.hero h1 {
+    color: whitesmoke;
+    font-size: 3rem;
+    text-align: center;
+}
